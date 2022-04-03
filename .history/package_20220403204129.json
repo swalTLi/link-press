@@ -1,0 +1,12 @@
+{
+  "name": "link-press",
+  "version": "1.0.0",
+  "description": "link's press",
+  "main": "index.js",
+  "repository": "git@gitee.com:swalTldq/link-press.git",
+  "author": "origin <2586463185@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.9.7"
+  }
+}
