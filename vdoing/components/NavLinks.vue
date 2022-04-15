@@ -103,7 +103,7 @@ export default {
       }
 
       const repoHost = this.repoLink.match(/^https?:\/\/[^/]+/)[0]
-      const platforms = ['GitHub', 'GitLab', 'Bitbucket']
+      const platforms = ['GitHub', 'GitLab', 'Bitbucket', 'gitee']
       for (let i = 0; i < platforms.length; i++) {
         const platform = platforms[i]
         if (new RegExp(platform, 'i').test(repoHost)) {

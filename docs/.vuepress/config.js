@@ -4,7 +4,7 @@ module.exports = {
   // 网站的描述，它将会以 <meta> 标签渲染到当前页面的 HTML 中。
   description: "this is link's website / 这里是林刻的网站",
   // 额外的需要被注入到当前页面的 HTML <head> 中的标签，
-  head: [["link", { rel: "icon", href: "/logo.png" }]],
+  head: [["link", { rel: "icon", href: "/link2.jpg" }]],
   // 指定用于 dev server 的主机名。
   host: "0.0.0.0",
   // 指定 dev server 的端口。
