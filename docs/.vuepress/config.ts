@@ -27,14 +27,15 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     nav: [
       { text: '首页', link: '/' },
       {
-        text: '前端', link: '/front-end/', items: [
+        text: '前端', link: '/web/', items: [
+          { text: 'JavaScript', link: '/JavaScript/' },
           { text: 'Vue', link: '/Vue/' },
           { text: 'React', link: '/React/' },
         ]
       },
       {
         text: '后端', link: '/back-end/', items: [
-          { text: 'nodejs', link: '/nodejs/' },
+          { text: 'NodeJs', link: '/NodeJs/' },
         ]
       },
       {
@@ -43,6 +44,11 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           { text: 'linux', link: '/linux/' },
         ]
       },
+      // {
+      //   text: '图书', link: '/book/', items: [
+      //     { text: '前端', link: '/web-book/' },
+      //   ]
+      // },
       // {
       //   text: '数据库', link: '/learn/', items: [
       //     { text: 'React', link: '/React/' },
@@ -131,7 +137,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     ],
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
     logo: '/img/link2.jpg', // 导航栏logo
-    repo: 'https://gitee.com/swalTldq', // 导航栏右侧生成Github链接
+    repo: 'https://github.com/swalTLi', // 导航栏右侧生成Github链接
     searchMaxSuggestions: 10, // 搜索结果显示最大数
     lastUpdated: '上次更新', // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
     docsDir: 'docs', // 编辑的文件夹
@@ -172,7 +178,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     // 文章默认的作者信息，(可在md文件中单独配置此信息) string | {name: string, link?: string}
     author: {
       name: 'link', // 必需
-      link: 'https://gitee.com/swalTldq', // 可选的
+      link: 'https://github.com/swalTLi', // 可选的
     },
 
     // 博主信息 (显示在首页侧边栏)
