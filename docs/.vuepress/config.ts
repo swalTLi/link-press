@@ -39,6 +39,9 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         ]
       },
       {
+        text: 'Leetcode', link: '/Leetcode/'
+      },
+      {
         text: '技术', link: '/technology/', items: [
           { text: 'Docker', link: '/Docker/' },
           { text: 'linux', link: '/linux/' },
